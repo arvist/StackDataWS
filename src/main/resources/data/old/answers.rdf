@@ -1,0 +1,2499 @@
+@prefix st:    <http://www.stackdata.com/owl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://www.stackdata.com/answers/149970>
+        a               st:Answer ;
+        st:createdDate  "2008-09-29T18:15:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8236> ;
+        st:votes        15 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/149970?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/149960>
+        a               st:Answer ;
+        st:createdDate  "2008-09-29T18:14:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19734> ;
+        st:votes        36 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/149960?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/149946>
+        a               st:Answer ;
+        st:createdDate  "2008-09-29T18:10:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/23020> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/149946?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/150132>
+        a               st:Answer ;
+        st:createdDate  "2008-09-29T18:57:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19258> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/150132?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/163755>
+        a               st:Answer ;
+        st:createdDate  "2008-10-02T18:10:23"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13913> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/163755?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/150009>
+        a               st:Answer ;
+        st:createdDate  "2008-09-29T18:28:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21482> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/150009?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/149996>
+        a               st:Answer ;
+        st:createdDate  "2008-09-29T18:21:31"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22422> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/149996?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/179971>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:31:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3446> ;
+        st:votes        50 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/179971?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180701>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T22:30:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/11908> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180701?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/179941>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:23:07"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12950> ;
+        st:votes        46 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/179941?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180341>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T20:47:37"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14143> ;
+        st:votes        78 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180341?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180009>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:39:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5922> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180009?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/179926>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:19:37"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14547> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/179926?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180022>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:41:37"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5189> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180022?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180016>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:40:45"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1573> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180016?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180307>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T20:40:46"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14033> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180307?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/464620>
+        a               st:Answer ;
+        st:createdDate  "2009-01-21T09:45:10"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/57433> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/464620?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/180026>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:42:40"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/672> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/180026?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/211554>
+        a               st:Answer ;
+        st:createdDate  "2008-10-17T09:37:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4950> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/211554?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/179917>
+        a               st:Answer ;
+        st:createdDate  "2008-10-07T19:16:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5922> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/179917?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/190371>
+        a               st:Answer ;
+        st:createdDate  "2008-10-10T07:04:58"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/11142> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/190371?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/189966>
+        a               st:Answer ;
+        st:createdDate  "2008-10-10T02:47:45"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1433> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/189966?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/189963>
+        a               st:Answer ;
+        st:createdDate  "2008-10-10T02:46:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12349> ;
+        st:votes        14 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/189963?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/190052>
+        a               st:Answer ;
+        st:createdDate  "2008-10-10T03:44:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14971> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/190052?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/3935002>
+        a               st:Answer ;
+        st:createdDate  "2010-10-14T15:43:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/25450> ;
+        st:votes        89 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/3935002?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/195131>
+        a               st:Answer ;
+        st:createdDate  "2008-10-12T05:23:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10585> ;
+        st:votes        86 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/195131?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/189961>
+        a               st:Answer ;
+        st:createdDate  "2008-10-10T02:46:13"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3740> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/189961?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200604>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T10:05:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21711> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200604?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330061>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T04:44:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/611> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330061?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/191821>
+        a               st:Answer ;
+        st:createdDate  "2008-10-10T15:17:52"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2509> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/191821?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/199976>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T03:57:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1200558> ;
+        st:votes        60 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/199976?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200034>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T04:43:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/811> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200034?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200025>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T04:34:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14069> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200025?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/199958>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T03:43:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7516> ;
+        st:votes        94 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/199958?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200100>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T05:41:16"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19624> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200100?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200015>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T04:29:48"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7516> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200015?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200071>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T05:12:22"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17408> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200071?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200003>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T04:15:07"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19299> ;
+        st:votes        25 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200003?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200028>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T04:36:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5113> ;
+        st:votes        96 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200028?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/200012>
+        a               st:Answer ;
+        st:createdDate  "2008-10-14T04:27:20"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19404> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/200012?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/209961>
+        a               st:Answer ;
+        st:createdDate  "2008-10-16T19:40:12"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/598> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/209961?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/209967>
+        a               st:Answer ;
+        st:createdDate  "2008-10-16T19:41:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19624> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/209967?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/210533>
+        a               st:Answer ;
+        st:createdDate  "2008-10-16T22:33:15"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8161> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/210533?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/210056>
+        a               st:Answer ;
+        st:createdDate  "2008-10-16T20:00:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8155> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/210056?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/209989>
+        a               st:Answer ;
+        st:createdDate  "2008-10-16T19:47:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6033> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/209989?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/210044>
+        a               st:Answer ;
+        st:createdDate  "2008-10-16T19:57:27"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/341> ;
+        st:votes        52 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/210044?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/219913>
+        a               st:Answer ;
+        st:createdDate  "2008-10-20T21:07:13"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/23354> ;
+        st:votes        35 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/219913?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/219978>
+        a               st:Answer ;
+        st:createdDate  "2008-10-20T21:20:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2112692> ;
+        st:votes        6 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/219978?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/219956>
+        a               st:Answer ;
+        st:createdDate  "2008-10-20T21:16:05"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2915> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/219956?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/219985>
+        a               st:Answer ;
+        st:createdDate  "2008-10-20T21:21:26"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/116> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/219985?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/222312>
+        a               st:Answer ;
+        st:createdDate  "2008-10-21T15:34:07"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/11526> ;
+        st:votes        7 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/222312?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/229957>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T14:29:15"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7094> ;
+        st:votes        13 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/229957?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/229991>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T14:35:10"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8205> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/229991?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/231486>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T20:54:11"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17034> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/231486?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/230002>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T14:41:12"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12725> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/230002?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/230878>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T18:28:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19674> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/230878?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/230379>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T16:16:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29662> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/230379?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/242323>
+        a               st:Answer ;
+        st:createdDate  "2008-10-28T05:32:42"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1554> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/242323?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/230208>
+        a               st:Answer ;
+        st:createdDate  "2008-10-23T15:34:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14048> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/230208?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239963>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T13:57:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8155> ;
+        st:votes        27 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239963?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239972>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T14:00:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7532> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239972?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239991>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T14:06:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/377> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239991?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/240008>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T14:12:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13103> ;
+        st:votes        78 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/240008?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239929>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T13:48:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/720> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239929?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239940>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T13:51:00"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1695> ;
+        st:votes        43 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239940?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239960>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T13:57:28"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14048> ;
+        st:votes        15 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239960?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/240327>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T15:36:35"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1463> ;
+        st:votes        26 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/240327?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/240029>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T14:18:18"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2199> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/240029?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/239946>
+        a               st:Answer ;
+        st:createdDate  "2008-10-27T13:52:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13913> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/239946?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/259985>
+        a               st:Answer ;
+        st:createdDate  "2008-11-03T21:14:01"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/259985?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/259958>
+        a               st:Answer ;
+        st:createdDate  "2008-11-03T21:07:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8220> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/259958?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/259966>
+        a               st:Answer ;
+        st:createdDate  "2008-11-03T21:10:11"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33164> ;
+        st:votes        243 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/259966?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/262111>
+        a               st:Answer ;
+        st:createdDate  "2008-11-04T15:16:00"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/27010> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/262111?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/263943>
+        a               st:Answer ;
+        st:createdDate  "2008-11-05T00:01:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20688> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/263943?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/266400>
+        a               st:Answer ;
+        st:createdDate  "2008-11-05T19:55:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8661> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/266400?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/262419>
+        a               st:Answer ;
+        st:createdDate  "2008-11-04T16:45:12"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/303> ;
+        st:votes        7 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/262419?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/260194>
+        a               st:Answer ;
+        st:createdDate  "2008-11-03T22:18:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/32632> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/260194?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/270059>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T20:03:35"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4853> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/270059?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/270026>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T19:53:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3474> ;
+        st:votes        22 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/270026?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/272252>
+        a               st:Answer ;
+        st:createdDate  "2008-11-07T14:36:49"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29407> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/272252?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/270143>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T20:33:58"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13430> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/270143?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/269973>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T19:36:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19630> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/269973?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/269923>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T19:17:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1228> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/269923?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/516893>
+        a               st:Answer ;
+        st:createdDate  "2009-02-05T17:17:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/424> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/516893?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/270522>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T22:10:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/30945> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/270522?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/269960>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T19:29:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3415> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/269960?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/539368>
+        a               st:Answer ;
+        st:createdDate  "2009-02-11T23:38:22"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/65338> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/539368?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/270150>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T20:35:24"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1680> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/270150?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/272002>
+        a               st:Answer ;
+        st:createdDate  "2008-11-07T13:02:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7903> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/272002?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/270142>
+        a               st:Answer ;
+        st:createdDate  "2008-11-06T20:33:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/35243> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/270142?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/273285>
+        a               st:Answer ;
+        st:createdDate  "2008-11-07T19:19:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19403> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/273285?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/280076>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T05:14:31"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/813> ;
+        st:votes        22 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/280076?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279970>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:03:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/24608> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279970?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/280279>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T07:51:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4368> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/280279?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279984>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:15:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/36427> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279984?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279967>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:00:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2567> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279967?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279998>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:26:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/32113> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279998?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279981>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:12:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1195872> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279981?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/283354>
+        a               st:Answer ;
+        st:createdDate  "2008-11-12T08:48:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19762> ;
+        st:votes        19 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/283354?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279992>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:22:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2536> ;
+        st:votes        7 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279992?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/280015>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:36:28"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22162> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/280015?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/650071>
+        a               st:Answer ;
+        st:createdDate  "2009-03-16T11:44:56"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/43515> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/650071?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/279929>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T03:29:14"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22355> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/279929?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/281484>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T16:59:48"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/16220> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/281484?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/280008>
+        a               st:Answer ;
+        st:createdDate  "2008-11-11T04:33:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/14343> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/280008?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/293947>
+        a               st:Answer ;
+        st:createdDate  "2008-11-16T15:01:20"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2495> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/293947?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/289996>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T12:57:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8709> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/289996?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290014>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T13:04:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6461> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290014?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290017>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T13:06:03"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4685> ;
+        st:votes        17 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290017?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290113>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T13:41:49"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/26133> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290113?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290009>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T13:02:21"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2147> ;
+        st:votes        15 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290009?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300845>
+        a               st:Answer ;
+        st:createdDate  "2008-11-19T02:29:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20860> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300845?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290164>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T14:04:13"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31345> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290164?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/293424>
+        a               st:Answer ;
+        st:createdDate  "2008-11-16T03:24:52"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/0> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/293424?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290091>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T13:35:11"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/37607> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290091?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290480>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T15:45:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1168> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290480?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/292352>
+        a               st:Answer ;
+        st:createdDate  "2008-11-15T09:44:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/27805> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/292352?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/1497854>
+        a               st:Answer ;
+        st:createdDate  "2009-09-30T12:38:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/60357> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/1497854?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/289963>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T12:44:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12915> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/289963?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/290003>
+        a               st:Answer ;
+        st:createdDate  "2008-11-14T13:00:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21704> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/290003?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/331293>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T16:12:41"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/26564> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/331293?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/295583>
+        a               st:Answer ;
+        st:createdDate  "2008-11-17T13:46:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5180> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/295583?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300035>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:31:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10661> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300035?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/299970>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:10:52"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4893> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/299970?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300013>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:24:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3474> ;
+        st:votes        18 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300013?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/299966>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:10:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/37486> ;
+        st:votes        14 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/299966?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/299979>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:13:15"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/299979?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300345>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T22:16:25"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10141> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300345?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300008>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:22:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300008?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/299984>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:16:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31641> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/299984?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300116>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:57:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/15401> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300116?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300149>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T21:08:05"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29900> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300149?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300738>
+        a               st:Answer ;
+        st:createdDate  "2008-11-19T01:10:10"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29491> ;
+        st:votes        39 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300738?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/415914>
+        a               st:Answer ;
+        st:createdDate  "2009-01-06T09:21:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17266> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/415914?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/299988>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T20:17:18"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6309> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/299988?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/300170>
+        a               st:Answer ;
+        st:createdDate  "2008-11-18T21:16:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10893> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/300170?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/309926>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T19:41:00"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33226> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/309926?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/310084>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T20:27:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21632> ;
+        st:votes        44 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/310084?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/309944>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T19:46:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        43 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/309944?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/312423>
+        a               st:Answer ;
+        st:createdDate  "2008-11-23T11:47:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2010> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/312423?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/309950>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T19:48:01"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3981> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/309950?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/4147098>
+        a               st:Answer ;
+        st:createdDate  "2010-11-10T17:16:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8155> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/4147098?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/309970>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T19:52:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3381> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/309970?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/310346>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T21:56:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2199> ;
+        st:votes        6 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/310346?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/309952>
+        a               st:Answer ;
+        st:createdDate  "2008-11-21T19:48:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3055> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/309952?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/355514>
+        a               st:Answer ;
+        st:createdDate  "2008-12-10T09:33:46"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/40933> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/355514?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/320000>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T07:47:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33006> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/320000?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/320053>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T08:27:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/26534> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/320053?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/319976>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T07:28:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/615> ;
+        st:votes        187 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/319976?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/319943>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T06:57:11"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/23191> ;
+        st:votes        18 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/319943?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/319999>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T07:45:11"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5190> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/319999?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/327028>
+        a               st:Answer ;
+        st:createdDate  "2008-11-29T01:50:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7625> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/327028?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/320201>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T10:06:12"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5427> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/320201?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/319932>
+        a               st:Answer ;
+        st:createdDate  "2008-11-26T06:46:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/23153> ;
+        st:votes        36 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/319932?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/914985>
+        a               st:Answer ;
+        st:createdDate  "2009-05-27T10:18:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/113019> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/914985?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/329990>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:46:18"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17205> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/329990?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330227>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T07:35:14"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3751> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330227?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/369219>
+        a               st:Answer ;
+        st:createdDate  "2008-12-15T18:09:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/46432> ;
+        st:votes        28 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/369219?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330000>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:54:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/27233> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330000?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/329937>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:17:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5728> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/329937?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330048>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T04:29:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5987> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330048?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/329984>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:42:24"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31641> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/329984?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330720>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T12:45:23"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/11702> ;
+        st:votes        21 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330720?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/329985>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:43:15"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6694> ;
+        st:votes        15 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/329985?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330005>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:57:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1288> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330005?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330093>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T05:19:27"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/30529> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330093?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/330036>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T04:18:40"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8091> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/330036?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/329934>
+        a               st:Answer ;
+        st:createdDate  "2008-12-01T03:16:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5445> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/329934?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/1889571>
+        a               st:Answer ;
+        st:createdDate  "2009-12-11T17:25:22"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/227299> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/1889571?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339965>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T09:06:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/43029> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339965?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339937>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T08:51:45"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339937?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339992>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T09:17:24"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/36537> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339992?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/340028>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T09:32:24"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        7 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/340028?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339979>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T09:11:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29519> ;
+        st:votes        45 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339979?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339988>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T09:15:35"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33987> ;
+        st:votes        15 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339988?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/3209434>
+        a               st:Answer ;
+        st:createdDate  "2010-07-09T02:34:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/98068> ;
+        st:votes        1753 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/3209434?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339950>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T08:59:49"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/982> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339950?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/341141>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T16:07:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/40644> ;
+        st:votes        7 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/341141?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/340112>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T10:13:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/43156> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/340112?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339991>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T09:17:12"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21348> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339991?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/339918>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T08:43:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/24071> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/339918?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/340162>
+        a               st:Answer ;
+        st:createdDate  "2008-12-04T10:32:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17709> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/340162?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/357010>
+        a               st:Answer ;
+        st:createdDate  "2008-12-10T18:03:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17675> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/357010?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/353767>
+        a               st:Answer ;
+        st:createdDate  "2008-12-09T18:37:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/44355> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/353767?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/349928>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T15:52:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/16883> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/349928?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/349925>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T15:51:42"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/40410> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/349925?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/349959>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:00:20"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/39034> ;
+        st:votes        46 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/349959?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/350043>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:17:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1228> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/350043?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/349955>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T15:59:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10661> ;
+        st:votes        22 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/349955?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/350031>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:15:44"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6388> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/350031?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/4648502>
+        a               st:Answer ;
+        st:createdDate  "2011-01-10T15:41:13"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21398> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/4648502?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/350104>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:36:41"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6694> ;
+        st:votes        25 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/350104?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/350083>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:30:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/23909> ;
+        st:votes        26 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/350083?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/350118>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:44:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/42184> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/350118?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/349998>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:09:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7780> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/349998?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/352879>
+        a               st:Answer ;
+        st:createdDate  "2008-12-09T14:24:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/42620> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/352879?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/350012>
+        a               st:Answer ;
+        st:createdDate  "2008-12-08T16:12:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2424> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/350012?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/360122>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T17:05:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/23691> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/360122?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/476675>
+        a               st:Answer ;
+        st:createdDate  "2009-01-24T21:23:16"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13447> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/476675?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/362095>
+        a               st:Answer ;
+        st:createdDate  "2008-12-12T07:15:52"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22452> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/362095?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/359961>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T16:26:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/43633> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/359961?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/359979>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T16:31:15"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/30587> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/359979?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/1421687>
+        a               st:Answer ;
+        st:createdDate  "2009-09-14T13:54:27"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33225> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/1421687?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/360001>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T16:36:45"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5> ;
+        st:votes        6 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/360001?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/359945>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T16:21:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20133> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/359945?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/365738>
+        a               st:Answer ;
+        st:createdDate  "2008-12-13T21:07:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2368> ;
+        st:votes        15 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/365738?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/360032>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T16:46:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5957> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/360032?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/360172>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T17:21:03"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1616> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/360172?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/360170>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T17:20:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/239663> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/360170?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/360284>
+        a               st:Answer ;
+        st:createdDate  "2008-12-11T17:59:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/18017> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/360284?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/380006>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T03:11:57"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1921> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/380006?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/380642>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T10:52:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33650> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/380642?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/381360>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T15:49:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/586> ;
+        st:votes        28 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/381360?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/379910>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T01:54:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1057> ;
+        st:votes        617 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/379910?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/380026>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T03:28:48"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10661> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/380026?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/379951>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T02:22:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/28776> ;
+        st:votes        6 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/379951?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/380003>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T03:09:29"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/41241> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/380003?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/381143>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T14:47:37"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20685> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/381143?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/380481>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T09:24:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/16567> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/380481?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/379979>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T02:44:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/47401> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/379979?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/386980>
+        a               st:Answer ;
+        st:createdDate  "2008-12-22T18:35:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/15880> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/386980?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/380013>
+        a               st:Answer ;
+        st:createdDate  "2008-12-19T03:19:52"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/39578> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/380013?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399985>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:52:29"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/44084> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399985?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399970>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:44:24"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/24054> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399970?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400202>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T13:03:41"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/40310> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400202?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/401453>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T20:45:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/9209> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/401453?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/8532188>
+        a               st:Answer ;
+        st:createdDate  "2011-12-16T09:32:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/110451> ;
+        st:votes        51 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/8532188?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399996>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:57:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/30300> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399996?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400040>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T11:18:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5190> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400040?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399915>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:09:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/0> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399915?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399960>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:41:35"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/39992> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399960?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400769>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T16:35:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/33732> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400769?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/8776610>
+        a               st:Answer ;
+        st:createdDate  "2012-01-08T09:42:29"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/968490> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/8776610?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400284>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T13:50:01"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7714> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400284?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399950>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:36:57"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1456> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399950?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/401447>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T20:44:27"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/9209> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/401447?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/405437>
+        a               st:Answer ;
+        st:createdDate  "2009-01-01T20:26:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6218> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/405437?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400234>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T13:19:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/44950> ;
+        st:votes        24 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400234?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400259>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T13:36:48"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6694> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400259?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/401983>
+        a               st:Answer ;
+        st:createdDate  "2008-12-31T00:58:05"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2548> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/401983?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400013>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T11:06:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/39992> ;
+        st:votes        13 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400013?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400251>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T13:33:01"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6694> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400251?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/401132>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T19:08:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6782> ;
+        st:votes        25 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/401132?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/399976>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T10:47:52"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/50023> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/399976?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/400459>
+        a               st:Answer ;
+        st:createdDate  "2008-12-30T14:56:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/40405> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/400459?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/409927>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T21:52:57"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29173> ;
+        st:votes        13 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/409927?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/409993>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T22:22:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/47190> ;
+        st:votes        139 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/409993?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/409936>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T21:55:49"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19635> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/409936?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/410041>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T22:51:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5542> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/410041?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/409917>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T21:48:31"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31884> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/409917?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/410057>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T23:01:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/41861> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/410057?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/409982>
+        a               st:Answer ;
+        st:createdDate  "2009-01-03T22:13:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        53 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/409982?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/420004>
+        a               st:Answer ;
+        st:createdDate  "2009-01-07T11:43:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/17160> ;
+        st:votes        19 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/420004?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/419975>
+        a               st:Answer ;
+        st:createdDate  "2009-01-07T11:32:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/419975?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/420291>
+        a               st:Answer ;
+        st:createdDate  "2009-01-07T13:26:26"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31136> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/420291?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/492543>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T17:13:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/60291> ;
+        st:votes        19 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/492543?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429003>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T17:44:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1321> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429003?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/422704>
+        a               st:Answer ;
+        st:createdDate  "2009-01-08T00:01:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20045> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/422704?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/420084>
+        a               st:Answer ;
+        st:createdDate  "2009-01-07T12:14:12"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/51420> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/420084?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/420239>
+        a               st:Answer ;
+        st:createdDate  "2009-01-07T13:05:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/34685> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/420239?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/419931>
+        a               st:Answer ;
+        st:createdDate  "2009-01-07T11:18:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19224> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/419931?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429983>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:27:58"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/9209> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429983?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429955>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:18:18"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12950> ;
+        st:votes        17 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429955?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429982>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:27:50"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21196> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429982?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/1529194>
+        a               st:Answer ;
+        st:createdDate  "2009-10-07T02:27:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/45005> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/1529194?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/430049>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:47:40"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/18061> ;
+        st:votes        20 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/430049?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429936>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:11:14"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20860> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429936?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429959>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:20:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/392> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429959?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/430673>
+        a               st:Answer ;
+        st:createdDate  "2009-01-10T06:31:03"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13100> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/430673?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/430096>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T23:11:11"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13144> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/430096?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/430108>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T23:16:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/48759> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/430108?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429948>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:15:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/50711> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429948?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429996>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:33:58"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/13051> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429996?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/429992>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:32:18"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/26592> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/429992?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/430110>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T23:19:55"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/51831> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/430110?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/430003>
+        a               st:Answer ;
+        st:createdDate  "2009-01-09T22:36:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/28006> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/430003?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/439918>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:25:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/51967> ;
+        st:votes        29 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/439918?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/441064>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T22:19:33"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/53495> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/441064?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/440014>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:47:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/19479> ;
+        st:votes        11 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/440014?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/440010>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:47:04"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21950> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/440010?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/440005>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:44:56"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/53166> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/440005?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/440109>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T18:09:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/48500> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/440109?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/442130>
+        a               st:Answer ;
+        st:createdDate  "2009-01-14T06:45:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6309> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/442130?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/439992>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:42:41"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/21950> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/439992?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/440013>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:47:41"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/28804> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/440013?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/439980>
+        a               st:Answer ;
+        st:createdDate  "2009-01-13T17:40:37"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4727> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/439980?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/835073>
+        a               st:Answer ;
+        st:createdDate  "2009-05-07T14:43:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/101915> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/835073?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459968>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:37:37"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/56855> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459968?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459991>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T03:02:34"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/56855> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459991?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459914>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:03:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1977> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459914?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459970>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:41:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/34509> ;
+        st:votes        54 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459970?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459916>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:06:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5697> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459916?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459969>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:37:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4197> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459969?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459948>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:26:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/6212> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459948?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/460776>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T10:43:13"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/0> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/460776?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/460000>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T03:09:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/51241> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/460000?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/666470>
+        a               st:Answer ;
+        st:createdDate  "2009-03-20T14:52:42"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/0> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/666470?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/459980>
+        a               st:Answer ;
+        st:createdDate  "2009-01-20T02:51:54"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3508> ;
+        st:votes        38 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/459980?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/469928>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T16:53:40"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/15570> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/469928?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/469996>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:09:43"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5380> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/469996?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/469992>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:08:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/9493> ;
+        st:votes        12 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/469992?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/469968>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:01:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/18771> ;
+        st:votes        31 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/469968?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/469971>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:02:10"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/26160> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/469971?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/469995>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:09:29"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31345> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/469995?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/478657>
+        a               st:Answer ;
+        st:createdDate  "2009-01-26T01:46:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5836> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/478657?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/471254>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T23:15:48"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/0> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/471254?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/470003>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:10:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/43965> ;
+        st:votes        7 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/470003?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/470005>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:11:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/31345> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/470005?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/470049>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:21:41"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20713> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/470049?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/470072>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:28:27"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/37213> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/470072?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/470031>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:18:15"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/55159> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/470031?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/470083>
+        a               st:Answer ;
+        st:createdDate  "2009-01-22T17:30:53"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/18623> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/470083?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/489973>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:02:49"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/59107> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/489973?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/489940>
+        a               st:Answer ;
+        st:createdDate  "2009-01-28T23:50:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29> ;
+        st:votes        23 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/489940?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490019>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:21:07"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/26620> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490019?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/489951>
+        a               st:Answer ;
+        st:createdDate  "2009-01-28T23:53:23"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/48465> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/489951?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490011>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:18:59"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7806> ;
+        st:votes        6 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490011?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490347>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T02:55:42"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3594> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490347?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490020>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:21:26"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/43089> ;
+        st:votes        56 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490020?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490052>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:31:22"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2443> ;
+        st:votes        13 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490052?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/489989>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:08:31"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20860> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/489989?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490007>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:18:19"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/18255> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490007?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/489939>
+        a               st:Answer ;
+        st:createdDate  "2009-01-28T23:50:01"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/5274> ;
+        st:votes        16 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/489939?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/489956>
+        a               st:Answer ;
+        st:createdDate  "2009-01-28T23:55:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/57752> ;
+        st:votes        8 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/489956?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/979238>
+        a               st:Answer ;
+        st:createdDate  "2009-06-11T03:49:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/4777> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/979238?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490044>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:27:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/53166> ;
+        st:votes        23 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490044?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/1364145>
+        a               st:Answer ;
+        st:createdDate  "2009-09-01T19:12:10"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/7552> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/1364145?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/494461>
+        a               st:Answer ;
+        st:createdDate  "2009-01-30T04:11:02"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/38241> ;
+        st:votes        0 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/494461?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/490049>
+        a               st:Answer ;
+        st:createdDate  "2009-01-29T00:29:39"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/38053> ;
+        st:votes        6 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/490049?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/509973>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:36:56"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12950> ;
+        st:votes        38 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/509973?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/599421>
+        a               st:Answer ;
+        st:createdDate  "2009-03-01T07:15:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/59470> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/599421?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/1216450>
+        a               st:Answer ;
+        st:createdDate  "2009-08-01T11:47:56"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/67392> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/1216450?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/510004>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:54:13"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/25201> ;
+        st:votes        5 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/510004?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/511155>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T12:32:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/54486> ;
+        st:votes        23 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/511155?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/514406>
+        a               st:Answer ;
+        st:createdDate  "2009-02-05T03:16:09"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/37558> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/514406?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/509952>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:24:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/3957> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/509952?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/510001>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:53:47"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/2596> ;
+        st:votes        23 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/510001?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/509923>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:02:35"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/59397> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/509923?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/509992>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:49:08"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/42019> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/509992?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/509934>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:10:58"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1862> ;
+        st:votes        10 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/509934?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/509964>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T03:32:26"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/29903> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/509964?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/737356>
+        a               st:Answer ;
+        st:createdDate  "2009-04-10T11:23:16"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10054> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/737356?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/510062>
+        a               st:Answer ;
+        st:createdDate  "2009-02-04T04:25:32"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/588> ;
+        st:votes        9 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/510062?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/529928>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T20:59:17"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/20654> ;
+        st:votes        25 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/529928?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530056>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:29:24"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/50009> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530056?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/529937>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:01:29"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12725> ;
+        st:votes        180 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/529937?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/529959>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:06:06"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/343> ;
+        st:votes        80 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/529959?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530016>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:17:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/62365> ;
+        st:votes        4 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530016?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530363>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T22:30:57"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/10661> ;
+        st:votes        36 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530363?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530303>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T22:21:48"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/8037> ;
+        st:votes        36 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530303?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530251>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T22:10:23"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/1952> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530251?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530014>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:16:38"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/22656> ;
+        st:votes        28 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530014?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530218>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T22:03:51"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/50147> ;
+        st:votes        1 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530218?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530000>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:13:36"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/12624> ;
+        st:votes        24 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530000?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530005>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:14:30"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/55159> ;
+        st:votes        3 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530005?&site=stackoverflow> .
+
+<http://www.stackdata.com/answers/530044>
+        a               st:Answer ;
+        st:createdDate  "2009-02-09T21:26:00"^^xsd:dateTime ;
+        st:hasOwner     <http://www.stackdata.com/users/16138> ;
+        st:votes        2 ;
+        owl:sameAs      <https://api.stackexchange.com/2.2/answers/530044?&site=stackoverflow> .

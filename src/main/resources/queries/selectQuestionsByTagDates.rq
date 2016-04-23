@@ -1,0 +1,11 @@
+PREFIX st: <http://www.stackdata.com/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+
+SELECT ?question 
+	WHERE {
+		{ ?question st:isTaggedWith ?tag .}
+		{ ?question st:createdDate ?createdDate .}
+		FILTER (?createdDate >= ?fromDate &&
+			    ?createdDate <= ?toDate).
+		
+	}

@@ -1,0 +1,192 @@
+@prefix st:   <http://www.stackdata.com/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <https://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+st:Post
+    rdf:type rdfs:Class ;
+    rdfs:label "Post in stackoverflow, parent class of question and answer" .
+
+st:Question
+    rdf:type rdfs:Class ;
+    rdfs:subClassOf st:Post ;
+    rdfs:label "Question asked in StackOverflow website" .
+
+st:Answer
+    rdf:type rdfs:Class ;
+    rdfs:subClassOf st:Post ;
+    rdfs:label "An answer to question in StackOverflow website" .
+
+st:User
+    rdf:type rdfs:Class ;
+    rdfs:subClassOf foaf:Person ;
+    rdfs:label "Owner of post" .      
+
+st:Tag
+    rdf:type rdfs:Class ;
+    rdfs:label "Tag to question on StackOverflow website" .
+
+st:Country
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf st:Location;
+	rdfs:label "Country" .
+
+st:Continent
+	rdf:type rdf:Class;
+	rdfs:subClassOf st:Location;
+	rdfs:label "Continent".
+
+st:Location
+	rdf:type rdfs:Class ;
+	rdfs:label "Location".
+
+st:answerCount
+    rdf:type rdf:Property ;
+    rdfs:label "How many answers question has" ;
+    rdfs:range st:Question;
+    rdfs:domain xsd:nonNegativeInteger.
+
+st:createdDate
+    rdf:type rdf:Property ;
+    rdfs:label "Date when question was first posted on StackOverflow" ;
+    rdfs:range st:Post;
+    rdfs:domain xsd:dateTime.
+
+st:hasOwner
+    rdf:type rdf:Property ;
+    rdfs:label "Post was created by user x" ;
+    rdfs:range st:Post;
+    rdfs:domain st:User.
+
+st:isAnswered
+    rdf:type rdf:Property ;
+    rdfs:range st:Question;
+    rdfs:domain xsd:boolean;
+    rdfs:label "Described whether question is answered or not".
+
+st:isTaggedWith
+    rdf:type rdf:Property ;
+    rdfs:label "Question is tagged with  specific tag or tags" ;
+    rdfs:range st:Question ;
+    rdfs:domain st:Tag.
+
+st:views
+    rdf:type rdf:Property ;
+    rdfs:label "Views for question post" ;
+    rdfs:domain xsd:nonNegativeInteger.
+
+st:votes
+    rdf:type rdf:Property ;
+    rdfs:label "Votes given by users to question or answer" ;
+    rdfs:domain xsd:integer.
+
+st:hasAnswer
+    rdf:type rdf:Property ;
+   	rdfs:label "Question x has accepted answer" ;
+    rdfs:range st:Question;
+    rdfs:domain st:Answer.
+
+st:isAnswerTo
+    rdf:type rdf:Property ;
+    rdfs:label "Answer is accepted to question x" ;
+    owl:inverseOf st:hasAnswer.
+
+st:hasQuestion
+    rdf:type rdf:Property ;
+    rdfs:label "Question for tag" ;
+    rdfs:range st:Tag ;
+    rdfs:domain st:Question;
+    owl:inverseOf st:isTaggedWith.
+      
+st:timeTrend
+    rdf:type rdf:Property ;
+    rdfs:label "URI to Google Trends Image" ;
+    rdfs:range st:Tag ;
+    rdfs:domain xsd:anyURI.
+
+st:lastAccessDate
+	rdf:type  rdf:Property ;
+	rdfs:label "DateTime of users last activity on StackOverflow" ;
+	rdfs:range st:User ;
+	rdfs:domain xsd:dateTime.
+
+st:location
+	rdf:type  rdf:Property ;
+	rdfs:label "Country from where user is";
+	rdfs:range st:User;
+	rdfs:domain st:Country.
+
+st:website
+	rdf:type rdf:Property;
+	rdfs:label "Users personal website/blog";
+	rdfs:range st:User;
+	rdfs:domain xsd:anyURI.
+
+st:profileViews
+	rdf:type rdf:Property;
+	rdfs:subPropertyOf st:views;
+	rdfs:label "Profile views of user";
+	rdfs:range st:User;
+	rdfs:domain xsd:nonNegativeInteger.
+
+st:reputation
+	rdf:type rdf:Property;
+	rdfs:label "Users reputation on StackOverflow";
+	rdfs:range st:User;
+	rdfs:domain xsd:integer.
+
+st:area
+	rdf:type rdf:Property;
+	rdfs:label "Area of location";
+	rdfs:range st:Location;
+	rdfs:domain xsd:double.
+
+st:capital
+	rdf:type rdf:Property;
+	rdfs:label "Capital of country";
+	rdfs:range st:Country;
+	rdfs:domain xsd:string.
+
+st:continent
+	rdf:type rdf:Property;
+	rdfs:label "Continent in which country is";
+	rdfs:range st:Country;
+	rdfs:domain st:Continent.
+
+st:countryCode
+	rdf:type rdf:Property;
+	rdfs:label "Countries abbreviation";
+	rdfs:range st:Country;
+	rdfs:domain xsd:string.
+
+st:currency
+	rdf:type rdf:Property;
+	rdfs:label "Currency in country";
+	rdfs:range st:Country;
+	rdfs:domain xsd:string.
+
+st:geoNamesId
+	rdf:type rdf:Property;
+	rdfs:label "Id to find geo location in geoNames";
+	rdfs:range st:Location;
+	rdfs:domain xsd:string.
+
+st:isoNumeric
+	rdf:type rdf:Property;
+	rdfs:label "ISO 3166-1 numeric country code";
+	rdfs:range st:Country;
+	rdfs:domain xsd:string.
+
+st:languages
+	rdf:type rdf:Property;
+	rdfs:label "CSV  string of language abbreviations spoken in country";
+	rdfs:range st:Country;
+	rdfs:domain xsd:string.
+
+st:population
+	rdf:type rdf:Property;
+	rdfs:label "Population of location";
+	rdfs:range st:Location;
+	rdfs:domain xsd:string.

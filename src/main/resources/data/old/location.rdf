@@ -1,0 +1,607 @@
+@prefix st:    <http://www.stackdata.com/owl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://www.stackdata.com/countries/USA>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/6252001" ;
+        st:area           "9629091.0"^^xsd:double ;
+        st:capital        "Washington" ;
+        st:continent      "North America" ;
+        st:continentCode  "NA" ;
+        dc:title        "United States" ;
+        st:countryCode    "USA" ;
+        st:currency       "USD" ;
+        st:geonamesID     6252001 ;
+        st:isoNumeric     "840" ;
+        st:languages      "en-US,es-US,haw,fr" ;
+        st:population     310232863 .
+
+<http://www.stackdata.com/countries/HND>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3608932" ;
+        st:area           "112090.0"^^xsd:double ;
+        st:capital        "Tegucigalpa" ;
+        st:continent      "North America" ;
+        st:continentCode  "NA" ;
+        dc:title       "Honduras" ;
+        st:countryCode    "HND" ;
+        st:currency       "HNL" ;
+        st:geonamesID     3608932 ;
+        st:isoNumeric     "340" ;
+        st:languages      "es-HN" ;
+        st:population     7989415 .
+
+<http://www.stackdata.com/countries/IND>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1269750" ;
+        st:area           "3287590.0"^^xsd:double ;
+        st:capital        "New Delhi" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title        "India" ;
+        st:countryCode    "IND" ;
+        st:currency       "INR" ;
+        st:geonamesID     1269750 ;
+        st:isoNumeric     "356" ;
+        st:languages      "en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc" ;
+        st:population     1173108018 .
+
+<http://www.stackdata.com/countries/CAN>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/6251999" ;
+        st:area           "9984670.0"^^xsd:double ;
+        st:capital        "Ottawa" ;
+        st:continent      "North America" ;
+        st:continentCode  "NA" ;
+        dc:title       "Canada" ;
+        st:countryCode    "CAN" ;
+        st:currency       "CAD" ;
+        st:geonamesID     6251999 ;
+        st:isoNumeric     "124" ;
+        st:languages      "en-CA,fr-CA,iu" ;
+        st:population     33679000 .
+
+<http://www.stackdata.com/countries/SWE>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2661886" ;
+        st:area           "449964.0"^^xsd:double ;
+        st:capital        "Stockholm" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Sweden" ;
+        st:countryCode    "SWE" ;
+        st:currency       "SEK" ;
+        st:geonamesID     2661886 ;
+        st:isoNumeric     "752" ;
+        st:languages      "sv-SE,se,sma,fi-SE" ;
+        st:population     9555893 , 9828655 .
+
+<http://www.stackdata.com/countries/MEX>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3996063" ;
+        st:area           "1972550.0"^^xsd:double ;
+        st:capital        "Mexico City" ;
+        st:continent      "North America" ;
+        st:continentCode  "NA" ;
+        dc:title        "Mexico" ;
+        st:countryCode    "MEX" ;
+        st:currency       "MXN" ;
+        st:geonamesID     3996063 ;
+        st:isoNumeric     "484" ;
+        st:languages      "es-MX" ;
+        st:population     112468855 .
+
+<http://www.stackdata.com/countries/FJI>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2205218" ;
+        st:area           "18270.0"^^xsd:double ;
+        st:capital        "Suva" ;
+        st:continent      "Oceania" ;
+        st:continentCode  "OC" ;
+        dc:title        "Fiji" ;
+        st:countryCode    "FJI" ;
+        st:currency       "FJD" ;
+        st:geonamesID     2205218 ;
+        st:isoNumeric     "242" ;
+        st:languages      "en-FJ,fj" ;
+        st:population     875983 .
+
+<http://www.stackdata.com/countries/AUS>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2077456" ;
+        st:area           "7686850.0"^^xsd:double ;
+        st:capital        "Canberra" ;
+        st:continent      "Oceania" ;
+        st:continentCode  "OC" ;
+        dc:title        "Australia" ;
+        st:countryCode    "AUS" ;
+        st:currency       "AUD" ;
+        st:geonamesID     2077456 ;
+        st:isoNumeric     "036" ;
+        st:languages      "en-AU" ;
+        st:population     21515754 .
+
+<http://www.stackdata.com/countries/NOR>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3144096" ;
+        st:area           "324220.0"^^xsd:double ;
+        st:capital        "Oslo" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title      "Norway" ;
+        st:countryCode    "NOR" ;
+        st:currency       "NOK" ;
+        st:geonamesID     3144096 ;
+        st:isoNumeric     "578" ;
+        st:languages      "no,nb,nn,se,fi" ;
+        st:population     5009150 .
+
+<http://www.stackdata.com/countries/GBR>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2635167";
+        st:area           "244820.0"^^xsd:double;
+        st:capital        "London" , "St Peter Port" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title       "United Kingdom";
+        st:countryCode    "GBR" ;
+        st:currency       "GBP" ;
+        st:geonamesID     2635167 , 3042362 ;
+        st:isoNumeric     "826" , "831" ;
+        st:languages      "en-GB,cy-GB,gd";
+        st:population     62348447 .
+
+<http://www.stackdata.com/countries/NZL>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2186224" ;
+        st:area           "268680.0"^^xsd:double ;
+        st:capital        "Wellington" ;
+        st:continent      "Oceania" ;
+        st:continentCode  "OC" ;
+        dc:title       "New Zealand" ;
+        st:countryCode    "NZL" ;
+        st:currency       "NZD" ;
+        st:geonamesID     2186224 ;
+        st:isoNumeric     "554" ;
+        st:languages      "en-NZ,mi" ;
+        st:population     4252277 .
+
+<http://www.stackdata.com/countries/ISL>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2629691" ;
+        st:area           "103000.0"^^xsd:double ;
+        st:capital        "Reykjavik" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title      "Iceland" ;
+        st:countryCode    "ISL" ;
+        st:currency       "ISK" ;
+        st:geonamesID     2629691 ;
+        st:isoNumeric     "352" ;
+        st:languages      "is,en,de,da,sv,no" ;
+        st:population     308910 .
+
+<http://www.stackdata.com/countries/ZAF>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/953987" ;
+        st:area           "1219912.0"^^xsd:double ;
+        st:capital        "Pretoria" ;
+        st:continent      "Africa" ;
+        st:continentCode  "AF" ;
+        dc:title        "South Africa" ;
+        st:countryCode    "ZAF" ;
+        st:currency       "ZAR" ;
+        st:geonamesID     953987 ;
+        st:isoNumeric     "710" ;
+        st:languages      "zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr" ;
+        st:population     49000000 .
+
+<http://www.stackdata.com/countries/RUS>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2017370" ;
+        st:area           1.71E7 ;
+        st:capital        "Moscow" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Russia" ;
+        st:countryCode    "RUS" ;
+        st:currency       "RUB" ;
+        st:geonamesID     2017370 ;
+        st:isoNumeric     "643" ;
+        st:languages      "ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog" ;
+        st:population     140702000 .
+
+<http://www.stackdata.com/countries/BRA>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3469034" ;
+        st:area           "8511965.0"^^xsd:double ;
+        st:capital        "Brasília" ;
+        st:continent      "South America" ;
+        st:continentCode  "SA" ;
+        dc:title        "Brazil" ;
+        st:countryCode    "BRA" ;
+        st:currency       "BRL" ;
+        st:geonamesID     3469034 ;
+        st:isoNumeric     "076" ;
+        st:languages      "pt-BR,es,en,fr" ;
+        st:population     201103330 .
+
+<http://www.stackdata.com/countries/ETH>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/337996" ;
+        st:area           "1127127.0"^^xsd:double ;
+        st:capital        "Addis Ababa" ;
+        st:continent      "Africa" ;
+        st:continentCode  "AF" ;
+        dc:title      "Ethiopia" ;
+        st:countryCode    "ETH" ;
+        st:currency       "ETB" ;
+        st:geonamesID     337996 ;
+        st:isoNumeric     "231" ;
+        st:languages      "am,en-ET,om-ET,ti-ET,so-ET,sid" ;
+        st:population     88013491 .
+
+<http://www.stackdata.com/countries/ILR>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/294640" ;
+        st:area           "20770.0"^^xsd:double ;
+        st:capital        "" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title       "Israel" ;
+        st:countryCode    "ILR" ;
+        st:currency       "ILS" ;
+        st:geonamesID     294640 ;
+        st:isoNumeric     "376" ;
+        st:languages      "he,ar-IL,en-IL," ;
+        st:population     7353985 .
+
+<http://www.stackdata.com/countries/PAK>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1168579" ;
+        st:area           "803940.0"^^xsd:double ;
+        st:capital        "Islamabad" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title       "Pakistan" ;
+        st:countryCode    "PAK" ;
+        st:currency       "PKR" ;
+        st:geonamesID     1168579 ;
+        st:isoNumeric     "586" ;
+        st:languages      "ur-PK,en-PK,pa,sd,ps,brh" ;
+        st:population     184404791 .
+
+<http://www.stackdata.com/countries/BGR>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/732800" ;
+        st:area           "110910.0"^^xsd:double ;
+        st:capital        "Sofia" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Bulgaria" ;
+        st:countryCode    "BGR" ;
+        st:currency       "BGN" ;
+        st:geonamesID     732800 ;
+        st:isoNumeric     "100" ;
+        st:languages      "bg,tr-BG,rom" ;
+        st:population     7148785 .
+
+<http://www.stackdata.com/countries/MRT>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2378080" ;
+        st:area           "1030700.0"^^xsd:double ;
+        st:capital        "Nouakchott" ;
+        st:continent      "Africa" ;
+        st:continentCode  "AF" ;
+        dc:title       "Mauritania" ;
+        st:countryCode    "MRT" ;
+        st:currency       "MRO" ;
+        st:geonamesID     2378080 ;
+        st:isoNumeric     "478" ;
+        st:languages      "ar-MR,fuc,snk,fr,mey,wo" ;
+        st:population     3205060 .
+
+<http://www.stackdata.com/countries/ROU>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/798549" ;
+        st:area           "237500.0"^^xsd:double ;
+        st:capital        "Bucharest" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title       "Romania" ;
+        st:countryCode    "ROU" ;
+        st:currency       "RON" ;
+        st:geonamesID     798549 ;
+        st:isoNumeric     "642" ;
+        st:languages      "ro,hu,rom" ;
+        st:population     21959278 .
+
+<http://www.stackdata.com/countries/SRB>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/6290252" ;
+        st:area           "88361.0"^^xsd:double ;
+        st:capital        "Belgrade" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title       "Serbia" ;
+        st:countryCode    "SRB" ;
+        st:currency       "RSD" ;
+        st:geonamesID     6290252 ;
+        st:isoNumeric     "688" ;
+        st:languages      "sr,hu,bs,rom" ;
+        st:population     7344847 .
+
+<http://www.stackdata.com/countries/POL>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/798544" ;
+        st:area           "312685.0"^^xsd:double ;
+        st:capital        "Warsaw" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Poland" ;
+        st:countryCode    "POL" ;
+        st:currency       "PLN" ;
+        st:geonamesID     798544 ;
+        st:isoNumeric     "616" ;
+        st:languages      "pl" ;
+        st:population     38500000 .
+
+<http://www.stackdata.com/countries/THA>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1605651" ;
+        st:area           "514000.0"^^xsd:double ;
+        st:capital        "Bangkok" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title       "Thailand" ;
+        st:countryCode    "THA" ;
+        st:currency       "THB" ;
+        st:geonamesID     1605651 ;
+        st:isoNumeric     "764" ;
+        st:languages      "th,en" ;
+        st:population     67089500 .
+
+<http://www.stackdata.com/countries/PHL>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1694008" ;
+        st:area           "300000.0"^^xsd:double ;
+        st:capital        "Manila" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title        "Philippines" ;
+        st:countryCode    "PHL" ;
+        st:currency       "PHP" ;
+        st:geonamesID     1694008 ;
+        st:isoNumeric     "608" ;
+        st:languages      "tl,en-PH,fil" ;
+        st:population     99900177 .
+
+<http://www.stackdata.com/countries/CHE>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2658434" ;
+        st:area           "41290.0"^^xsd:double ;
+        st:capital        "Bern" , "Berne" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Switzerland" ;
+        st:countryCode    "CHE" ;
+        st:currency       "CHF" ;
+        st:geonamesID     2658434 ;
+        st:isoNumeric     "756" ;
+        st:languages      "de-CH,fr-CH,it-CH,rm" ;
+        st:population     7581000 .
+
+<http://www.stackdata.com/countries/KWT>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/285570" ;
+        st:area           "17820.0"^^xsd:double ;
+        st:capital        "Kuwait City" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title      "Kuwait" ;
+        st:countryCode    "KWT" ;
+        st:currency       "KWD" ;
+        st:geonamesID     285570 ;
+        st:isoNumeric     "414" ;
+        st:languages      "ar-KW,en" ;
+        st:population     2789132 .
+
+<http://www.stackdata.com/countries/GTM>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3595528" ;
+        st:area           "108890.0"^^xsd:double ;
+        st:capital        "Guatemala City" ;
+        st:continent      "North America" ;
+        st:continentCode  "NA" ;
+        dc:title       "Guatemala" ;
+        st:countryCode    "GTM" ;
+        st:currency       "GTQ" ;
+        st:geonamesID     3595528 ;
+        st:isoNumeric     "320" ;
+        st:languages      "es-GT" ;
+        st:population     13550440 .
+
+<http://www.stackdata.com/countries/CHN>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1814991" ;
+        st:area           "9596960.0"^^xsd:double ;
+        st:capital        "Beijing" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title      "China" ;
+        st:countryCode    "CHN" ;
+        st:currency       "CNY" ;
+        st:geonamesID     1814991 ;
+        st:isoNumeric     "156" ;
+        st:languages      "zh-CN,yue,wuu,dta,ug,za" ;
+        st:population     1330044000 .
+
+<http://www.stackdata.com/countries/HUN>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/719819" ;
+        st:area           "93030.0"^^xsd:double ;
+        st:capital        "Budapest" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title       "Hungary" ;
+        st:countryCode    "HUN" ;
+        st:currency       "HUF" ;
+        st:geonamesID     719819 ;
+        st:isoNumeric     "348" ;
+        st:languages      "hu-HU" ;
+        st:population     9982000 .
+
+<http://www.stackdata.com/countries/BLR>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/630336" ;
+        st:area           "207600.0"^^xsd:double ;
+        st:capital        "Minsk" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title       "Belarus" ;
+        st:countryCode    "BLR" ;
+        st:currency       "BYR" ;
+        st:geonamesID     630336 ;
+        st:isoNumeric     "112" ;
+        st:languages      "be,ru" ;
+        st:population     9685000 .
+
+<http://www.stackdata.com/countries/CZE>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3077311" ;
+        st:area           "78866.0"^^xsd:double ;
+        st:capital        "Prague" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Czech Republic" ;
+        st:countryCode    "CZE" ;
+        st:currency       "CZK" ;
+        st:geonamesID     3077311 ;
+        st:isoNumeric     "203" ;
+        st:languages      "cs,sk" ;
+        st:population     10476000 .
+
+<http://www.stackdata.com/countries/HKG>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1819730" ;
+        st:area           "1092.0"^^xsd:double ;
+        st:capital        "Hong Kong" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title        "Hong Kong" ;
+        st:countryCode    "HKG" ;
+        st:currency       "HKD" ;
+        st:geonamesID     1819730 ;
+        st:isoNumeric     "344" ;
+        st:languages      "zh-HK,yue,zh,en" ;
+        st:population     6898686 .
+
+<http://www.stackdata.com/countries/EGY>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/357994" ;
+        st:area           "1001450.0"^^xsd:double ;
+        st:capital        "Cairo" ;
+        st:continent      "Africa" ;
+        st:continentCode  "AF" ;
+        dc:title       "Egypt" ;
+        st:countryCode    "EGY" ;
+        st:currency       "EGP" ;
+        st:geonamesID     357994 ;
+        st:isoNumeric     "818" ;
+        st:languages      "ar-EG,en,fr" ;
+        st:population     80471869 .
+
+<http://www.stackdata.com/countries/KOR>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1835841" ;
+        st:area           "98480.0"^^xsd:double ;
+        st:capital        "Seoul" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title      "South Korea" ;
+        st:countryCode    "KOR" ;
+        st:currency       "KRW" ;
+        st:geonamesID     1835841 ;
+        st:isoNumeric     "410" ;
+        st:languages      "ko-KR,en" ;
+        st:population     48422644 .
+
+<http://www.stackdata.com/countries/DNK>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/2623032" ;
+        st:area           "43094.0"^^xsd:double ;
+        st:capital        "Copenhagen" ;
+        st:continent      "Europe" ;
+        st:continentCode  "EU" ;
+        dc:title        "Denmark" ;
+        st:countryCode    "DNK" ;
+        st:currency       "DKK" ;
+        st:geonamesID     2623032 ;
+        st:isoNumeric     "208" ;
+        st:languages      "da-DK,en,fo,de-DK" ;
+        st:population     5484000 .
+
+<http://www.stackdata.com/countries/SGP>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1880251" ;
+        st:area           "692.7"^^xsd:double ;
+        st:capital        "Singapore" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title       "Singapore" ;
+        st:countryCode    "SGP" ;
+        st:currency       "SGD" ;
+        st:geonamesID     1880251 ;
+        st:isoNumeric     "702" ;
+        st:languages      "cmn,en-SG,ms-SG,ta-SG,zh-SG" ;
+        st:population     4701069 .
+
+<http://www.stackdata.com/countries/JPN>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1861060" ;
+        st:area           "377835.0"^^xsd:double ;
+        st:capital        "Tokyo" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title       "Japan" ;
+        st:countryCode    "JPN" ;
+        st:currency       "JPY" ;
+        st:geonamesID     1861060 ;
+        st:isoNumeric     "392" ;
+        st:languages      "ja" ;
+        st:population     127288000 .
+
+<http://www.stackdata.com/countries/VNM>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/1562822" ;
+        st:area           "329560.0"^^xsd:double ;
+        st:capital        "Hanoi" ;
+        st:continent      "Asia" ;
+        st:continentCode  "AS" ;
+        dc:title       "Vietnam" ;
+        st:countryCode    "VNM" ;
+        st:currency       "VND" ;
+        st:geonamesID     1562822 ;
+        st:isoNumeric     "704" ;
+        st:languages      "vi,en,fr,zh,km" ;
+        st:population     89571130 .
+
+<http://www.stackdata.com/countries/ARG>
+        a                 st:Country ;
+        rdfs:seeAlso      "http://sws.geonames.org/3865483" ;
+        st:area           "2766890.0"^^xsd:double ;
+        st:capital        "Buenos Aires" ;
+        st:continent      "South America" ;
+        st:continentCode  "SA" ;
+        dc:title       "Argentina" ;
+        st:countryCode    "ARG" ;
+        st:currency       "ARS" ;
+        st:geonamesID     3865483 ;
+        st:isoNumeric     "032" ;
+        st:languages      "es-AR,en,it,de,fr,gn" ;
+        st:population     41343201 .
