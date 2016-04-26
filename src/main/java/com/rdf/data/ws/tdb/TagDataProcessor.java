@@ -5,23 +5,14 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.commons.io.IOUtils;
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.QuerySolutionMap;
-import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
-import org.springframework.core.io.ClassPathResource;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.rdf.data.ws.model.Tag;
@@ -30,24 +21,8 @@ import com.rdf.data.ws.repositories.TagsRepository;
 
 @Component
 public class TagDataProcessor {
-	private static final String ENCODING_UTF_8 = "UTF-8";
-	private Model model;
-	// Resource URIs
+	
 	private static final String TAG_RESOURCE = "http://www.stackdata.com/tags/";
-	private static final String COUNTRY_RESOURCE = "http://www.stackdata.com/countries/";
-	// Query resources
-	private static final String SELECT_QUESTIONS_BY_TAG_DATES = "./queries/selectQuestionsByTagDates.rq";
-	private static final String SELECT_QUESTIONS_BY_TAG_DATES_COUNTRY = "./queries/selectQuestionsByTagDatesCountry.rq";
-	private static final String SELECT_QUESTIONS_BY_TAG_DATES_CONITNENT = "./queries/selectQuestionsByTagDatesContinent.rq";
-	// Bind variables
-	private static final String TAG_BIND_VAR = "tag";
-	private static final String COUNTRY_BIND_VAR = "country";
-	private static final String QUESTION_BIND_VAR = "question";
-	private static final String COUNTINENT_BIND_VAR = "continent";
-	// Query Strings
-	private String selectQuestionsByTagDates;
-	private String selectQuestionsByTagDatesCountry;
-	private String selectQuestionsByTagDatesContinent;
 	// Properties
 	private Property votesProperty;
 	private Property viewProperty;
@@ -56,18 +31,14 @@ public class TagDataProcessor {
 	private Property wikiUrlProperty;
 	private Property trendsProperty;
 	private Property createdDateProperty;
-	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd-HH:mm:ss");
+	private SimpleDateFormat formatter;
+	// Model
+	private Model model;
+	@Autowired
+	private QuestionDataProcessor questionData;
 
 	public TagDataProcessor() throws FileNotFoundException, IOException {
 		model = StackTdbFactory.getInstance().getDefaultModel();
-
-		// Initialize queries
-		selectQuestionsByTagDates = IOUtils
-				.toString(new ClassPathResource(SELECT_QUESTIONS_BY_TAG_DATES).getInputStream(), ENCODING_UTF_8);
-		selectQuestionsByTagDatesCountry = IOUtils.toString(
-				new ClassPathResource(SELECT_QUESTIONS_BY_TAG_DATES_COUNTRY).getInputStream(), ENCODING_UTF_8);
-		selectQuestionsByTagDatesContinent = IOUtils.toString(
-				new ClassPathResource(SELECT_QUESTIONS_BY_TAG_DATES_CONITNENT).getInputStream(), ENCODING_UTF_8);
 
 		// Initialize properties
 		votesProperty = model.createProperty("http://www.stackdata.com/owl#votes");
@@ -77,6 +48,8 @@ public class TagDataProcessor {
 		wikiUrlProperty = model.createProperty("http://xmlns.com/foaf/0.1/primaryTopic");
 		trendsProperty = model.createProperty("http://www.stackdata.com/owl#timeTrend");
 		createdDateProperty = model.createProperty("http://www.stackdata.com/owl#createdDate");
+		
+		formatter = new SimpleDateFormat("yyyy-MM-dd-HH:mm:ss");
 	}
 
 	public List<Tag> getAllTagTotalsAndAveragesByDatesContinent(String continent, Date from, Date to) {
@@ -118,7 +91,7 @@ public class TagDataProcessor {
 	public Tag getTagTotalsAndAveragesByTagDatesContinent(String tagStr, String continent, Date from, Date to) {
 		Tag tag = getTag(tagStr);
 		if (tag != null) {
-			Set<String> taggedQuestions = getQuestionResourcesByTagDatesContinent(tagStr, continent, from, to);
+			Set<String> taggedQuestions = questionData.getQuestionResourcesByTagDatesContinent(tagStr, continent, from, to);
 			for (String questionStr : taggedQuestions) {
 				updateTagTotalsFromQuestionResource(tag.getTotals(), questionStr);
 			}
@@ -130,7 +103,7 @@ public class TagDataProcessor {
 	public Tag getTagTotalsAndAveragesByTagDatesCountry(String tagStr, String country, Date from, Date to) {
 		Tag tag = getTag(tagStr);
 		if (tag != null) {
-			Set<String> taggedQuestions = getQuestionResourcesByTagDatesCountry(tagStr, country, from, to);
+			Set<String> taggedQuestions = questionData.getQuestionResourcesByTagDatesCountry(tagStr, country, from, to);
 			for (String questionStr : taggedQuestions) {
 				updateTagTotalsFromQuestionResource(tag.getTotals(), questionStr);
 			}
@@ -144,7 +117,7 @@ public class TagDataProcessor {
 		Tag tag = getTag(tagStr);
 		if (tag != null) {
 
-			Set<String> taggedQuestions = getQuestionResourcesByTagAndDates(tagStr, from, to);
+			Set<String> taggedQuestions = questionData.getQuestionResourcesByTagAndDates(tagStr, from, to);
 			for (String questionStr : taggedQuestions) {
 				updateTagTotalsFromQuestionResource(tag.getTotals(), questionStr);
 			}
@@ -211,61 +184,4 @@ public class TagDataProcessor {
 		return tag;
 	}
 
-	private Set<String> getQuestionResourcesByTagDatesContinent(String tag, String continent, Date from, Date to) {
-		String queryStr = (this.bindFromToDateVariables(selectQuestionsByTagDatesContinent, from, to));
-		Query query = QueryFactory.create(queryStr);
-		QuerySolutionMap initialBinding = new QuerySolutionMap();
-		initialBinding.add(TAG_BIND_VAR, model.createResource(TAG_RESOURCE.concat(tag)));
-		initialBinding.add(COUNTINENT_BIND_VAR, model.createLiteral(continent));
-		return getResources(query, initialBinding, model);
-	}
-
-	private Set<String> getQuestionResourcesByTagDatesCountry(String tag, String country, Date from, Date to) {
-		String queryStr = (this.bindFromToDateVariables(selectQuestionsByTagDatesCountry, from, to));
-		Query query = QueryFactory.create(queryStr);
-		QuerySolutionMap initialBinding = new QuerySolutionMap();
-		initialBinding.add(TAG_BIND_VAR, model.createResource(TAG_RESOURCE.concat(tag)));
-		initialBinding.add(COUNTRY_BIND_VAR, model.createResource(COUNTRY_RESOURCE.concat(country)));
-		return getResources(query, initialBinding, model);
-	}
-
-	private Set<String> getQuestionResourcesByTagAndDates(String tag, Date from, Date to) {
-		String queryStr = (this.bindFromToDateVariables(selectQuestionsByTagDates, from, to));
-		Query query = QueryFactory.create(queryStr);
-		QuerySolutionMap initialBinding = new QuerySolutionMap();
-		initialBinding.add(TAG_BIND_VAR, model.createResource(TAG_RESOURCE.concat(tag)));
-		return getResources(query, initialBinding, model);
-	}
-
-	private Set<String> getResources(Query query, QuerySolutionMap bindings, Model model) {
-		HashSet<String> taggedQuestions = new HashSet<String>();
-		try (QueryExecution qexec = QueryExecutionFactory.create(query, model, bindings)) {
-			ResultSet results = qexec.execSelect();
-			for (; results.hasNext();) {
-				QuerySolution soln = results.nextSolution();
-				taggedQuestions.add(soln.get(QUESTION_BIND_VAR).toString());
-			}
-		}
-		return taggedQuestions;
-	}
-
-	private String bindFromToDateVariables(String query, Date fromDate, Date toDate) {
-
-		if (query == null) {
-			throw new IllegalArgumentException("Query null, can't bind date variables");
-		}
-
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-
-		if (fromDate == null) {
-			fromDate = new Date(0L); // Set date to 1970-01-01
-		}
-		if (toDate == null) {
-			toDate = new Date(2082758400000L); // Set date to 2036-01-01
-		}
-
-		query = query.replaceAll("\\?fromDate", "\"" + dateFormat.format(fromDate) + "T00:00:00\"^^xsd:dateTime");
-		query = query.replaceAll("\\?toDate", "\"" + dateFormat.format(toDate) + "T00:00:00\"^^xsd:dateTime");
-		return query;
-	}
 }

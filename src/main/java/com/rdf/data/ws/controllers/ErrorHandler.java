@@ -6,12 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestController;
 
 import com.rdf.data.ws.model.ErrorWS;
 import com.rdf.data.ws.model.enums.Continent;
-import com.rdf.data.ws.model.enums.Measurement;
+import com.rdf.data.ws.model.enums.TagMeasurement;
 import com.rdf.data.ws.model.enums.Order;
 
 @Component
@@ -64,13 +62,13 @@ public class ErrorHandler {
 
 	private List<Object> allowedOrderByValues() {
 		List<Object> allowedOrder = new ArrayList<Object>();
-		allowedOrder.add(Measurement.aat);
-		allowedOrder.add(Measurement.aqc);
-		allowedOrder.add(Measurement.aqp);
-		allowedOrder.add(Measurement.qc);
-		allowedOrder.add(Measurement.ta);
-		allowedOrder.add(Measurement.vic);
-		allowedOrder.add(Measurement.voc);
+		allowedOrder.add(TagMeasurement.aat);
+		allowedOrder.add(TagMeasurement.aqc);
+		allowedOrder.add(TagMeasurement.aqp);
+		allowedOrder.add(TagMeasurement.qc);
+		allowedOrder.add(TagMeasurement.ta);
+		allowedOrder.add(TagMeasurement.vic);
+		allowedOrder.add(TagMeasurement.voc);
 		return allowedOrder;
 	}
 

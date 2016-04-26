@@ -1,0 +1,11 @@
+prefix st: <http://www.stackdata.com/owl#>
+
+SELECT DISTINCT ?question
+WHERE {
+  {?question st:isTaggedWith ?tag .}
+  {?question st:views 		?views .}
+  FILTER (?createdDate >= ?fromDate &&
+			    ?createdDate <= ?toDate).
+}
+ORDER BY DESC(?views)
+LIMIT ?limit
